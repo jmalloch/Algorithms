@@ -1,7 +1,7 @@
 # Huffman Coding  
   
 ### Part 1  
-Here, a huffman code is created based on character frequency in fileOne, then fileTwo is encoded and decoded using the respective functions.  
+Here, a huffman code, "huffCode.txt", is created based on character frequency in fileOne, then fileTwo is encoded and decoded using the respective functions.  
   
 ### Part 2  
 Here, three huffman codes are created based on three different canonical collections of .txt files. Each is then used to encode the 5 files in "data". Below is a comparison of the file sizes after each encoding.
