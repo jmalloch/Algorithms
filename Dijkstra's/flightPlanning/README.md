@@ -1,6 +1,7 @@
 # Travel Planning
 
 Data files include:  
+
 | Source    | Destination| Departure Time| Arrival Time  |
 | :-------: | :--------: | :-----------: | :-----------: |
 | cityNum1  | cityNum1   | int time1     | int time2     |
