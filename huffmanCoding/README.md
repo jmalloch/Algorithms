@@ -13,7 +13,7 @@ Here, three huffman codes are created based on three different canonical collect
 |`MysteryASCII.txt` | 444.6 kB  | 1175 kB | 312 kB  | 262.5 kB  |
 |`MythsASCII.txt` | 740.7 kB  | 2100 kB | 650 kB  | 450 kB  |
 |`SimakASCII.txt` | 310.1 kB  | 812.5 kB | 212.5 kB  | 175 kB |
-|`WodehouseASCII.txt` | 403.3 kB  | 1050 kB | 275 kB  | 225 kB|  
+|`WodehouseASCII.txt` | 403.3 kB  | 1050 kB | 275 kB  | 225 kB  |  
   
 (* = since string '0's and '1's were used to simulate bits, a byte = bit conversion was applied for the size of encoded files.)  
   
