@@ -9,23 +9,23 @@ versionControl was implemented using typical dynamic programming practices, a 2D
 Due to assignment specifications, the output of my algorithm follows the structure:
   
   
-Mismatch: File 1 : None File 2 : <1 .. 1>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : None &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <1 .. 1>
+    
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <1 .. 3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : < 2 .. 4>
   
-Match: File 1 : <1 .. 3> File 2 : < 2 .. 4>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <4 .. 81> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <5 .. 106>
   
-Mismatch: File 1 : <4 .. 81> File 2 : <5 .. 106>
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <82 .. 85> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <107 .. 110>
   
-Match: File 1 : <82 .. 85> File 2 : <107 .. 110>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <86 .. 174> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : None
   
-Mismatch: File 1 : <86 .. 174> File 2 : None
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <175 .. 175> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <111 .. 111>
   
-Match: File 1 : <175 .. 175> File 2 : <111 .. 111>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <176 .. 307> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <112 .. 210>
   
-Mismatch: File 1 : <176 .. 307> File 2 : <112 .. 210>
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <308 .. 309> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <211 .. 212>
   
-Match: File 1 : <308 .. 309> File 2 : <211 .. 212>
-  
-Mismatch: File 1 : <310 .. 583> File 2 : <213 .. 450>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <310 .. 583> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <213 .. 450>
   
   
 This output is far less useful in practice, but does provide an easy way to visualize file differences.
