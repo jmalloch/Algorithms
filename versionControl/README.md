@@ -9,15 +9,15 @@ versionControl was implemented using typical dynamic programming practices, a 2D
 Due to assignment specifications, the output of my algorithm follows the structure:
   
   
-Mismatch: &nbsp;&nbsp;&nbsp; File 1 : None &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <1 .. 1>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : None &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <1 .. 1>
     
-Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <1 .. 3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : < 2 .. 4>
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <1 .. 3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : < 2 .. 4>
   
-Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <4 .. 81> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <5 .. 106>
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <4 .. 81> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <5 .. 106>
   
-Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <82 .. 85> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <107 .. 110>
+Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <82 .. 85> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <107 .. 110>
   
-Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <86 .. 174> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : None
+Mismatch: &nbsp;&nbsp;&nbsp; File 1 : <86 .. 174> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : None
   
 Match: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 1 : <175 .. 175> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File 2 : <111 .. 111>
   
